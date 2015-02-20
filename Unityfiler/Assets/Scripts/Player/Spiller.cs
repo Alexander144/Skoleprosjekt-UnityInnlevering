@@ -5,6 +5,8 @@ public class Spiller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		var speed = 10f;
+
+		int trololo = 5;
 <<<<<<< HEAD
 
 	
