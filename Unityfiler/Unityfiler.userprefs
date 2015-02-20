@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Spiller.cs">
+    <Files>
+<<<<<<< HEAD
+      <File FileName="Assets\Scripts\Player\Spiller.cs" Line="18" Column="17" />
+=======
+      <File FileName="Assets\Scripts\Player\Spiller.cs" Line="6" Column="18" />
+>>>>>>> 9a948131c6f7aa6b2fdaf1e388ff0a2c783e03fe
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
