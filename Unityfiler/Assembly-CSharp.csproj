@@ -78,6 +78,7 @@
      <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_StartGame.cs" />
      <Compile Include="Assets\Scripts\Ball\Ball.cs" />
      <Compile Include="Assets\Scripts\Player\Spiller.cs" />
+     <Compile Include="Assets\Scripts\Vegger\Vegg.cs" />
      <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />
      <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
      <None Include="Assets\Example Games\Angry Birds Style\_ReadMe.txt" />
