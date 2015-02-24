@@ -50,42 +50,42 @@ TextureImporter:
     - name: part_explosion_0
       rect:
         serializedVersion: 2
-        x: 158
-        y: 1160
-        width: 734
-        height: 718
+        x: 118
+        y: 1187
+        width: 750
+        height: 750
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: part_explosion_1
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 1062
-        width: 904
-        height: 933
+        x: 1063
+        y: 1019
+        width: 940
+        height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: part_explosion_2
       rect:
         serializedVersion: 2
         x: 119
-        y: 112
-        width: 801
-        height: 803
+        y: 156
+        width: 808
+        height: 706
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: part_explosion_3
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 245
-        width: 510
-        height: 499
+        x: 1348
+        y: 320
+        width: 418
+        height: 348
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
