@@ -4,8 +4,8 @@ using System.Collections;
 public class Spiller : MonoBehaviour { 	
 	// Update is called once per frame
 	void Update () {
-		var speed = 10f;
-
+		var speed = 20f;
+		rigidbody2D.velocity = new Vector2(0,0);
 		if (Input.GetKey(KeyCode.LeftArrow)) {
 			rigidbody2D.velocity = new Vector2(speed*-1,rigidbody2D.velocity.y);
 		} 
