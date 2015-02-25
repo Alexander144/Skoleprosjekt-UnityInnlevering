@@ -10,7 +10,7 @@ public class Vegg : MonoBehaviour {
 	public Transform hoyereVegg;
 	public Transform bunnVegg;
 	void Start () {
-		topVegg.position = new Vector2 (0f,6.578f);
+		topVegg.position = new Vector2 (0f,7.390f);
 		topVegg.localScale = new Vector2 (35f, 1f);
 		bunnVegg.position = new Vector2 (0f,-6f);
 		bunnVegg.localScale = new Vector2 (35f, 1f);
