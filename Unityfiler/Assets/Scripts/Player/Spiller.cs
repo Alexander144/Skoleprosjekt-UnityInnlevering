@@ -3,13 +3,15 @@ using System.Collections;
 
 public class Spiller : MonoBehaviour { 	
 	// Update is called once per frame
-	void Update () {
+	public KeyCode left;
+	public KeyCode right;
+	void Update (){
 		var speed = 20f;
 		rigidbody2D.velocity = new Vector2(0,0);
-		if (Input.GetKey(KeyCode.LeftArrow)) {
+		if (Input.GetKey(left)) {
 			rigidbody2D.velocity = new Vector2(speed*-1,rigidbody2D.velocity.y);
 		} 
-		else if (Input.GetKey(KeyCode.RightArrow)) {
+		else if (Input.GetKey(right)) {
 			rigidbody2D.velocity = new Vector2(speed,rigidbody2D.velocity.y);
 		} 
 		else {

@@ -3,21 +3,29 @@ using System.Collections;
 
 public class Ball : MonoBehaviour {
 
+	public bool startSpill;
+	public KeyCode space;
 	// Use this for initialization
 	void Start () {
-		var randomNumber = Random.Range (0f, 2f);
-		if(randomNumber <= 0.5){
-			rigidbody2D.AddForce(new Vector2(40, 70));
+		startSpill = false;
 		}
-		else{
-			rigidbody2D.AddForce(new Vector2(-40, 70));
-		}
-	}	
 	void Update(){
 		Debug.Log (rigidbody2D.velocity.magnitude);
-		//if (rigidbody2D.velocity.magnitude>20) {
-		//	rigidbody2D.velocity = rigidbody2D.velocity * 0.9f;
-		//}
+		if (rigidbody2D.velocity.magnitude<8) {
+			rigidbody2D.velocity = rigidbody2D.velocity * 1.3f;
+		}
+		if(startSpill == false){
+		if(Input.GetKeyDown(space)){
+				startSpill = true;
+			var randomNumber = Random.Range (0f, 2f);
+			if(randomNumber <= 0.5){
+				rigidbody2D.AddForce(new Vector2(10, 40));
+			}
+			else{
+				rigidbody2D.AddForce(new Vector2(-10, 40));
+			}
+		}
+	}
 		//if (rigidbody2D.velocity.magnitude<10) {
 		//	rigidbody2D.velocity = rigidbody2D.velocity * 1.9f;
 		//}
@@ -31,13 +39,15 @@ public class Ball : MonoBehaviour {
 		if(Info.collider.tag=="Bunngrense"){
 			rigidbody2D.position = new Vector2(0,0);
 			rigidbody2D.velocity = rigidbody2D.velocity * 0f;
-			var randomNumber = Random.Range (0f, 2f);
-			if(randomNumber <= 0.5){
-				rigidbody2D.AddForce(new Vector2(40, 70));
-			}
-			else{
-				rigidbody2D.AddForce(new Vector2(-40, 70));
-			}
+			startSpill = false;
+
+		}
+		if(Info.collider.tag=="VenstreVegg"){
+			rigidbody2D.AddForce(new Vector2(-5, 5));
+		}
+		if(Info.collider.tag=="HoyereVegg"){
+			Debug.Log("funker");
+			rigidbody2D.AddForce(new Vector2(5, 5));
 		}
 	}
 }
