@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Programmer/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Programmer/UNITY/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Programmer/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Programmer/UNITY/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -90,7 +90,7 @@
      <None Include="Assets\Example Games\2D Scrolling Shooter\_ReadMe.txt" />
      <None Include="Assets\Fonts\PressStart2P-Regular\OFL.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Programmer/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Programmer/UNITY/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
