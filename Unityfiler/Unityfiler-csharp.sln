@@ -23,14 +23,15 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																					GlobalSection(MonoDevelopProperties) = preSolution
-	 2753871d0506d95e436fbfb58d37045b529149d4
-																																												GlobalSection(MonoDevelopProperties) = preSolution
-	 65bf399f1d8737e09a67b93aba5bbd33e7f4b348
+																																																						GlobalSection(MonoDevelopProperties) = preSolution
+
+																																																		GlobalSection(MonoDevelopProperties) = preSolution
+ 2753871d0506d95e436fbfb58d37045b529149d4
+
+65bf399f1d8737e09a67b93aba5bbd33e7f4b348
 
 																																															GlobalSection(MonoDevelopProperties) = preSolution
- eb7842b4d4e4087f5db5224079158b2dd6931a77
-
+eb7842b4d4e4087f5db5224079158b2dd6931a77
 
 																																													GlobalSection(MonoDevelopProperties) = preSolution
  68dc1aa196c380a32f7b2af5e350679ffc5e913d
@@ -38,24 +39,26 @@ Global
  c197dfa9dcba7b960f4d3b7b917d3ea85474f4e8
  f8af80016f8f05a690f0a863702cdbdfd20bd158
 
+																																													GlobalSection(MonoDevelopProperties) = preSolution
+
 																																											GlobalSection(MonoDevelopProperties) = preSolution
 e5c40eefc3fc25e4d6ba7e16d9fed8627a869bd7
 
 																																												GlobalSection(MonoDevelopProperties) = preSolution
-ae6acdc10eee1f40947bccee4a4bebb1baaaacad
+ ae6acdc10eee1f40947bccee4a4bebb1baaaacad
  b90105981ba8b00f55955de1e40c448f1aa78ed6
 
 																								GlobalSection(MonoDevelopProperties) = preSolution
  b19a8eb332cfc90cb87e8521ce89411dd94b895b
 
 																		GlobalSection(MonoDevelopProperties) = preSolution
-8e47f946190ed033b0e7e402d32e236326a2c87a
+ 8e47f946190ed033b0e7e402d32e236326a2c87a
 
 									GlobalSection(MonoDevelopProperties) = preSolution
-e5d9104a758cb5ef7ae9ef43bce3e08b3f8fbb51
+ e5d9104a758cb5ef7ae9ef43bce3e08b3f8fbb51
 
 					GlobalSection(MonoDevelopProperties) = preSolution
-9a948131c6f7aa6b2fdaf1e388ff0a2c783e03fe
+ 9a948131c6f7aa6b2fdaf1e388ff0a2c783e03fe
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
