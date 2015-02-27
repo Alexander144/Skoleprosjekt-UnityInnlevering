@@ -34,6 +34,7 @@ public class Ball : MonoBehaviour {
 	// Update is called once per frame
 	void OnCollisionEnter2D (Collision2D Info) {
 		if (Info.collider.tag == "Spiller") {
+			Debug.Log ("fungerer");
 			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x/2,rigidbody2D.velocity.y) + new Vector2(Info.collider.rigidbody2D.velocity.x/3,Info.collider.rigidbody2D.velocity.y);
 		}
 		if(Info.collider.tag=="Bunngrense"){
