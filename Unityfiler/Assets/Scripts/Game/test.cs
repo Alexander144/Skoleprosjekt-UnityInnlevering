@@ -14,6 +14,18 @@ public class test : MonoBehaviour {
 	}
 	void OnCollisionEnter2D (Collision2D Info) {
 		if (Info.collider.tag == "Ball") {
+			if(gameObject.tag == "Blue"){
+				Debug.Log("blue");
+			}
+			else if(gameObject.tag == "Green"){
+				Debug.Log("green");
+			}
+			else if(gameObject.tag == "Yellow"){
+				Debug.Log("yellow");
+			}
+			else if(gameObject.tag == "Red"){
+				Debug.Log("red");
+			}
 			Destroy(gameObject);
 		}
 	}
