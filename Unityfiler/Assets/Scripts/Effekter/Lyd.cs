@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Lyd : MonoBehaviour {
-
+	public AudioClip hitmark;
 	// Use this for initialization
 	void Start () {
 	
@@ -12,8 +12,8 @@ public class Lyd : MonoBehaviour {
 	void Update () {
 	}
 	void OnCollisionEnter2D (Collision2D Info) {
-		if (Info.collider.tag == "Ball"&&	gameObject.tag == "Blue") {
-			Debug.Log("blue+1");
+		if (Info.collider.tag == "Ball") {
+
 		}
 	}
 }
