@@ -13,7 +13,7 @@ public class Lyd : MonoBehaviour {
 	}
 	void OnCollisionEnter2D (Collision2D Info) {
 		if (Info.collider.tag == "Ball") {
-
+			AudioSource.PlayClipAtPoint(hitmark,transform.position);
 		}
 	}
 }
