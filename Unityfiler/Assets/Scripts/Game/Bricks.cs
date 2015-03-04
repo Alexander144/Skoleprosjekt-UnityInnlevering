@@ -14,6 +14,7 @@ public class Bricks : MonoBehaviour {
 			GM.instance.DestroyBrick();
 			if(gameObject.tag == "Blue"){
 				Lyd.blue++;
+				Ball.blue++;
 			}
 			else if(gameObject.tag == "Red"){
 				Lyd.red++;

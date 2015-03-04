@@ -16,11 +16,11 @@ public class Lyd : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		if (blue >= 1 && red >= 1 && green >= 1 && count==0 ) {
+		if (blue >= 1 && red >= 1 && yellow >= 1 && count==0 ) {
 			baby ();
 			count=count + 1;
 		}
-		if (blue >= 2 && red >= 2 && green >= 2 && count ==1) {
+		if (blue >= 2 && green >= 2 && yellow >= 2 && count ==1) {
 			wow ();
 			count = count + 1;
 

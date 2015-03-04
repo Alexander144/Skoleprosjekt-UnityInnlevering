@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\Game\Bricks.cs" />
      <Compile Include="Assets\Scripts\Game\GM.cs" />
      <Compile Include="Assets\Scripts\Game\Game.cs" />
+     <Compile Include="Assets\Scripts\GameOver\GameOver.cs" />
      <Compile Include="Assets\Scripts\Player\Spiller.cs" />
      <Compile Include="Assets\Scripts\Vegger\Vegg.cs" />
      <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />

@@ -5,7 +5,7 @@ public class Spiller : MonoBehaviour {
 	// Update is called once per frame
 	public KeyCode left;
 	public KeyCode right;
-	public float speed = 10f;
+	public float speed = 3f;
 	void Update (){
 		rigidbody2D.velocity = new Vector2(0,0);
 		if (Input.GetKey(left)) {
