@@ -23,6 +23,7 @@ public class Lyd : MonoBehaviour {
 		if (blue >= 2 && red >= 2 && green >= 2 && count ==1) {
 			wow ();
 			count = count + 1;
+
 		}
 		if(trippelGreen == 3){
 			weed ();
