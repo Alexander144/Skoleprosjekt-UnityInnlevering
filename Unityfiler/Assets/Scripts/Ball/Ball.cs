@@ -40,6 +40,7 @@ public class Ball : MonoBehaviour {
 			rigidbody2D.position = new Vector2(0,0);
 			rigidbody2D.velocity = rigidbody2D.velocity * 0f;
 			startSpill = false;
+			GM.instance.LoseLife();
 
 		}
 		if(Info.collider.tag=="VenstreVegg"){
