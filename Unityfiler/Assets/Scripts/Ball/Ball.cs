@@ -2,12 +2,12 @@
 using System.Collections;
 
 public class Ball : MonoBehaviour {
-
+	
 	public bool startSpill;
 	public KeyCode space;
 	public static int blue = 0;
 	// Use this for initialization
-	void Start () {
+	public void Start () {
 		startSpill = false;
 		}
 	void Update(){
@@ -16,6 +16,7 @@ public class Ball : MonoBehaviour {
 		if(Input.GetKeyDown(space)){
 				startSpill = true;
 				startBall ();
+				Destroy (GameObject.FindWithTag("StartText"));
 		}
 	}
 		if(startSpill == true){
@@ -35,9 +36,7 @@ public class Ball : MonoBehaviour {
 			rigidbody2D.position = new Vector2(0,0);
 			rigidbody2D.velocity = rigidbody2D.velocity * 0f;
 			startSpill = false;
-<<<<<<< HEAD
 			GM.instance.LoseLife();
-=======
 		}
 		if(Info.collider.tag=="vegg" || Info.collider.tag == "Bunngrense"){
 			Lyd.count = 0;
@@ -45,8 +44,6 @@ public class Ball : MonoBehaviour {
 			Lyd.green = 0;
 			Lyd.yellow = 0;
 			Lyd.red = 0;
->>>>>>> 6bb8687739d64376e627cd47954778b07717e381
-
 		}
 	}
 	void startBall(){

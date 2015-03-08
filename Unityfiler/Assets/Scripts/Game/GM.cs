@@ -21,9 +21,11 @@ public class GM : MonoBehaviour {
 
 	void checkGameOver() {
 		if (lives == -1)
-			;
-		if (bricks == 0)
+			Application.LoadLevel("GameoverScene");
+		if (bricks == 0) {
+			Application.LoadLevel ("WinScene");
 			bricksText.text = "Bricks right: 420";
+		}
 	}
 	
 	public void LoseLife() {

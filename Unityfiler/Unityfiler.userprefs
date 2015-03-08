@@ -1,23 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Effekter\Particle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Game\GM.cs">
     <Files>
-      <File FileName="Assets\Scripts\Game\Bricks.cs" Line="14" Column="31" />
-      <File FileName="Assets\Scripts\Effekter\Lyd.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game\GameEnd.cs" Line="4" Column="18" />
+      <File FileName="Assets\Scripts\Game\GM.cs" Line="28" Column="4" />
+      <File FileName="Assets\Scripts\Game\Bricks.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Ball\Ball.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Game\GM.cs" Line="24" Column="4" />
-      <File FileName="Assets\Scripts\Effekter\Particle.cs" Line="15" Column="3" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Ball\Ball.cs">
-    <Files>
-      <File FileName="Unityfiler.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Ball\Ball.cs" Line="14" Column="5" />
-      <File FileName="Assets\Scripts\Effekter\Lyd.cs" Line="23" Column="48" />
-      <File FileName="Assets\Scripts\Game\Bricks.cs" Line="17" Column="17" />
-      <File FileName="Assets\Scripts\Game\GM.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Spiller.cs" Line="8" Column="24" />
->>>>>>> 6bb8687739d64376e627cd47954778b07717e381
+      <File FileName="Assets\Scripts\Game\TitleScreen.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
